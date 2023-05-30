@@ -1,0 +1,30 @@
+.logo{
+    height: 70px;
+    border: 1px solid red;
+    padding: 0 25px;
+    img{
+        height: 40px;
+        width: 120px;
+        margin: 15px 0;
+        background-color: black;
+    }
+}
+
+.sidebar-btn{
+    display: flex;
+    flex-direction: column;
+    .sidebar-btn_a{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        text-decoration: none;
+        padding: 8px 25px;
+        font-weight: bold;
+        color: #32323D;
+        font-size: 13px;
+    }
+    .active{
+        color: #0F7070;
+    }
+    
+}
