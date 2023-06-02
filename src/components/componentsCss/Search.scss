@@ -1,0 +1,22 @@
+.Search-container{
+    display: flex;
+    align-items: center ;
+    .input-search{
+        outline: none;
+        background-color: #dde4e4;
+        border: none;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10px 20px;
+        width: 100%;
+        color: gray;
+    }
+    .icon-search{
+        background-color: #dde4e4;
+        padding: 6px 0px 9px 20px;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}

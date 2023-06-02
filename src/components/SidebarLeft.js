@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 const SidebarLeft = () => {
   return (
-    <div>
+    <div className='sidebarLeft-container'>
       <div className='logo'>
         <img src={logo} alt='logo'/>
       </div>

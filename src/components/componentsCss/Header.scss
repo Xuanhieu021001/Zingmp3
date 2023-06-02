@@ -1,0 +1,11 @@
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .header-left{
+        display: flex;
+        gap: 16px;
+        color: gray;
+        align-items: center;
+    }
+}

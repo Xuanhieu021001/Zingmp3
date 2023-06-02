@@ -3,7 +3,7 @@ import { SidebarLeft,SidebarRight } from "../../components"
 import './publicCss/Public.scss'
 const Public = ()=>{
     return(
-        <div className="w-full">
+        <div className="public">
             <div className="sidebar-left">
                 <SidebarLeft/>
             </div>
