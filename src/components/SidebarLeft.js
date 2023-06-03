@@ -11,10 +11,11 @@ const SidebarLeft = () => {
         <img src={logo} alt='logo'/>
       </div>
       <div className='sidebar-btn'>
-        {sidebarMenu.map(item=>(
+        {sidebarMenu.map((item,index)=>(
           <NavLink
             to={item.path}
             className='sidebar-btn_a'
+            key={index}
           >
             {item.icons}
             <span>{item.text}</span>
